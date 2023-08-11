@@ -33,13 +33,13 @@ Check out the live demo of TaskMaster [here](https://taskmaster-tech.vercel.app/
 
 ## Screenshots
 
-![Dashboard](../Frontend/public/screenshot/dashboard.PNG)
+![Dashboard](https://imgur.com/Y1fWodW.png)
 *Dashboard - Manage your tasks effectively.*
 
-![Task Edit](/Frontend/public/screenshot/edit.PNG)
+![Task Edit](https://i.imgur.com/Ws6p7xA.png)
 *Task Edit - Edit task details with ease.*
 
-![Task Edit](/Frontend/public/screenshot/addtask.PNG)
+![Task Add](https://imgur.com/Y1fWodW.png)
 *Task Add - Add task by user.*
 
 ## Tech Stack
