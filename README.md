@@ -29,7 +29,7 @@ TaskMaster is a full-stack web application built using the MERN (MongoDB, Expres
 
 ## Demo
 
-Check out the live demo of TaskMaster [here](https://taskmaster-tech.vercel.app/signin).
+Check out the live demo of TaskMaster [live URL](https://taskmaster-tech.vercel.app/signin).
 
 ## Screenshots
 
@@ -39,7 +39,7 @@ Check out the live demo of TaskMaster [here](https://taskmaster-tech.vercel.app/
 ![Task Edit](https://i.imgur.com/Ws6p7xA.png)
 *Task Edit - Edit task details with ease.*
 
-![Task Add](https://imgur.com/Y1fWodW.png)
+![Task Add](https://imgur.com/MmFHTPj.png)
 *Task Add - Add task by user.*
 
 ## Tech Stack
