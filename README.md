@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# TaskMaster 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+TaskMaster is a full-stack web application built using the MERN (MongoDB, Express, React, Node.js) stack along with Tailwind CSS. It offers a personalized task management system that allows users to manage their tasks efficiently.
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Authentication](#authentication)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Create, update, and delete tasks
+- Edit tasks
+- Filter tasks by status (pending or completed)
+- Search for tasks by name
+- User registration, login, and logout functionalities
+- Each user can view their own personalize  tasks only
+- Responsive design for desktop and mobile devices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+Check out the live demo of TaskMaster [here](https://taskmaster-tech.vercel.app/signin).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Dashboard](../Frontend/public/screenshot/dashboard.PNG)
+*Dashboard - Manage your tasks effectively.*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Task Edit](/Frontend/public/screenshot/edit.PNG)
+*Task Edit - Edit task details with ease.*
 
-### `npm run eject`
+![Task Edit](/Frontend/public/screenshot/addtask.PNG)
+*Task Add - Add task by user.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Styling: Tailwind CSS
+- State Management: React Hooks
+- API Requests: Axios
+- Animination : farmer motion
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Follow these steps to set up and run TaskMaster on your local machine:
 
-## Learn More
+1. Clone the repository: `git clone https://github.com/yourusername/TaskMaster.git`
+2. Navigate to the project directory: `cd TaskMaster`
+3. Install dependencies: `npm install`
+4. Set up environment variables (if needed)
+5. Start the development server: `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Register/Login: Create an account or log in to your existing account.
+2. Dashboard: View, add, edit, and delete your tasks.
+3. Filter & Search: Filter tasks by status and search for tasks by name.
+4. Task Editing: Edit task details, mark tasks as completed, or delete them.
+5. Logout: Safely log out from your account.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Authentication
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+TaskMaster uses JSON Web Tokens (JWT) for authentication. Users are required to authenticate using their credentials to access their tasks.
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! To contribute to TaskMaster, follow these steps:
 
-### Advanced Configuration
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Crafted with ❤️ by [mahendra kumar](https://mahendratech.netlify.app/).*
